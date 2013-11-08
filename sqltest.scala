@@ -1,5 +1,6 @@
 import java.sql.{Date, DriverManager}
 
+// here's your DAO :-)
 case class Message(id: Long, message: String, created_time: Date)
 
 object App {
